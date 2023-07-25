@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Savor-the-Natural-Goodness-of-Fresh-Fruits-Online!</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <!-- TAILWIND CSS CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
@@ -13,13 +18,102 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./styles/custom.css" />
     <!-- BOX ICON -->
-    <link
+    <!-- <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-    />
+    /> -->
   </head>
-  <body>
+
+  <body class="font-montserrat">
+    <!-- HEADER SECTION START -->
+    <header class="lg:max-w-[1140px] container mx-auto">
+      <div
+        class="navbar justify-between p-5 lg:bg-gradient-to-r lg:from-[#8DB60033] lg:to-[#FF3B30B3] lg:rounded-full"
+      >
+        <div class="">
+          <ul
+            class="menu menu-horizontal px-1 hidden mr-auto text-slate-500 font-medium text-lg lg:flex"
+          >
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All fruits</a></li>
+          </ul>
+        </div>
+        <a class="flex items-center gap-3 self-start">
+          <img src="./images/logo.png" class="w-14" alt="" />
+          <span class="text-3xl font-extrabold text-slate-50">Fruit Burst</span>
+        </a>
+        <!-- <div class="navbar-center hidden lg:flex">
+          
+        </div> -->
+        <div class="lg:ml-0 ml-auto">
+          <form class="lg:flex items-center hidden">
+            <input
+              type="search"
+              placeholder="Search here"
+              class="block w-full px-7 py-3 rounded-full text-base font-medium placeholder:text-[#12121266] border-2 border-transparent focus:outline-none focus:ring-0 focus:border-[#4cd964] drop-shadow-md relative z-10"
+            />
+            <button
+              type="submit"
+              class="-ml-8 cursor-pointer border-0 outline-0 bg-transparent relative z-20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 right-0"
+            >
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All fruits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION END -->
     <!-- DAISY UI CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
+
+<!-- 
+
+navbar-start w-3/5
+
+navbar-end w-2/5
+
+ -->
