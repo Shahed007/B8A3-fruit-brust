@@ -26,23 +26,42 @@
 
   <body class="font-montserrat">
     <!-- HEADER SECTION START -->
-    <header class="lg:max-w-[1140px] container mx-auto">
+    <header class="lg:max-w-[1140px] container mx-auto px-4">
       <div
         class="navbar justify-between p-5 lg:bg-gradient-to-r lg:from-[#8DB60033] lg:to-[#FF3B30B3] lg:rounded-full"
       >
         <div class="">
           <ul
-            class="menu menu-horizontal px-1 hidden mr-auto text-slate-500 font-medium text-lg lg:flex"
+            class="menu menu-horizontal px-1 hidden mr-auto font-medium text-lg lg:flex"
           >
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Shop</a></li>
-            <li><a>All fruits</a></li>
+            <li
+              class="hover:bg-[#FF3B30B3] transition-all rounded-sm text-slate-500"
+            >
+              <a>Home</a>
+            </li>
+            <li
+              class="hover:bg-[#FF3B30B3] transition-all rounded-sm text-slate-500"
+            >
+              <a>About Us</a>
+            </li>
+            <li
+              class="hover:bg-[#FF3B30B3] transition-all rounded-sm text-slate-500"
+            >
+              <a>Shop</a>
+            </li>
+            <li
+              class="hover:bg-[#FF3B30B3] transition-all rounded-sm text-slate-500"
+            >
+              <a>All fruits</a>
+            </li>
           </ul>
         </div>
         <a class="flex items-center gap-3 self-start">
           <img src="./images/logo.png" class="w-14" alt="" />
-          <span class="text-3xl font-extrabold text-slate-50">Fruit Burst</span>
+          <span
+            class="text-xl lg:text-3xl font-extrabold text-slate-500 lg:text-slate-50"
+            >Fruit Burst</span
+          >
         </a>
         <!-- <div class="navbar-center hidden lg:flex">
           
@@ -103,6 +122,162 @@
           </div>
         </div>
       </div>
+
+      <!-- BANNER SECTION START -->
+      <div
+        class="carousel w-full mt-14 rounded h-[50vh] lg:h-[calc(100vh-167px)]"
+      >
+        <div id="slide1" class="carousel-item relative w-full">
+          <div class="bg-[#000000B2] absolute top-0 left-0 w-full h-full"></div>
+          <div
+            class="absolute flex items-center justify-center flex-col w-full h-full text-center space-y-6"
+          >
+            <h1 class="text-white text-xl lg:text-4xl font-extrabold">
+              Savor the Natural <span class="text-rose-600">Goodness</span>
+              <br />
+              of Fresh Fruits Online!
+            </h1>
+            <p class="text-base w-3/4 lg:w-full text-white font-medium">
+              We supply highly quality organic products
+            </p>
+            <div>
+              <button
+                class="btn bg-rose-600 border-0 transition-colors text-white hover:text-gray-800"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <img src="./images/banner-1.png" class="w-full rounded" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 left-2 right-2 lg:right-5 top-1/2"
+          >
+            <a
+              href="#slide4"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❮</a
+            >
+            <a
+              href="#slide2"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <div class="bg-[#000000B2] absolute top-0 left-0 w-full h-full"></div>
+          <div
+            class="absolute flex items-center justify-center flex-col w-full h-full text-center space-y-6"
+          >
+            <h1 class="text-white text-xl lg:text-4xl font-extrabold">
+              Savor the Natural <span class="text-rose-600">Goodness</span>
+              <br />
+              of Fresh Fruits Online!
+            </h1>
+            <p class="text-base w-3/4 lg:w-full text-white font-medium">
+              We supply highly quality organic products
+            </p>
+            <div>
+              <button
+                class="btn bg-rose-600 border-0 transition-colors text-white hover:text-gray-800"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+
+          <img src="./images/banner-2.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 left-2 right-2 lg:right-5 top-1/2"
+          >
+            <a
+              href="#slide1"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❮</a
+            >
+            <a
+              href="#slide3"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <div class="bg-[#000000B2] absolute top-0 left-0 w-full h-full"></div>
+          <div
+            class="absolute flex items-center justify-center flex-col w-full h-full text-center space-y-6"
+          >
+            <h1 class="text-white text-xl lg:text-4xl font-extrabold">
+              Savor the Natural <span class="text-rose-600">Goodness</span>
+              <br />
+              of Fresh Fruits Online!
+            </h1>
+            <p class="text-base w-3/4 lg:w-full text-white font-medium">
+              We supply highly quality organic products
+            </p>
+            <div>
+              <button
+                class="btn bg-rose-600 border-0 transition-colors text-white hover:text-gray-800"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <img src="./images/banner-3.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 left-2 right-2 lg:right-5 top-1/2"
+          >
+            <a
+              href="#slide2"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❮</a
+            >
+            <a
+              href="#slide4"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❯</a
+            >
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="bg-[#000000B2] absolute top-0 left-0 w-full h-full"></div>
+          <div
+            class="absolute flex items-center justify-center flex-col w-full h-full text-center space-y-6"
+          >
+            <h1 class="text-white text-xl lg:text-4xl font-extrabold">
+              Savor the Natural <span class="text-rose-600">Goodness</span>
+              <br />
+              of Fresh Fruits Online!
+            </h1>
+            <p class="text-base w-3/4 lg:w-full text-white font-medium">
+              We supply highly quality organic products
+            </p>
+            <div>
+              <button
+                class="btn bg-rose-600 border-0 transition-colors text-white hover:text-gray-800"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <img src="./images/banner-4.png" class="w-full" />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 lg:left-5 left-2 right-2 lg:right-5 top-1/2"
+          >
+            <a
+              href="#slide3"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❮</a
+            >
+            <a
+              href="#slide1"
+              class="btn bg-transparent lg:bg-white border-0 lg:border-2 text-2xl rounded-full lg:btn-circle text-rose-500 lg:text-gray-600"
+              >❯</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- BANNER SECTION END -->
     </header>
     <!-- HEADER SECTION END -->
     <!-- DAISY UI CDN -->
